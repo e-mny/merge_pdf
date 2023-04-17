@@ -3,8 +3,10 @@ import os
 from datetime import datetime
 
 merge = PdfMerger()
-dir = r"C:\Users\enoch\OneDrive - Nanyang Technological University\CS-NTU\EG0001\Presentation Slides"
-pdf_files = os.listdir(dir) # insert dir here
+
+# insert dir here
+dir = 
+pdf_files = os.listdir(dir)
 
 for file in pdf_files:
     # append pdf file
